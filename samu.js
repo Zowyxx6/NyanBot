@@ -247,7 +247,7 @@ message: {
 "mimetype": "image/jpeg",             
 "jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)           
 },                                
-"title": `Bienvenido a ${mdata.subject}`,
+"title": `Bienvenidx a ${mdata.subject}`,
 "description": "",                
 "currencyCode": "SYP",                  
 "priceAmount1000": "999999999999999999",
@@ -263,8 +263,8 @@ samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenidx a $
 }  else if (anu.action == 'remove') {
 num = anu.participants[0]
 teks = `_Bueno  @${num.split('@')[0]} se  fue, dijo que iba a comprar cigarrillos:)_
-_*Ojala y le baya bien,*_
-*:0*`
+_*Ojala y le vaya bien*_
+`
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
 } else if (anu.action == 'promote') {
