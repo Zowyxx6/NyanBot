@@ -262,8 +262,8 @@ samu330.sendMessage(mdata.id, `😙Hola, @${num.split('@')[0]}, _*Bienvenidx a $
 //leave
 }  else if (anu.action == 'remove') {
 num = anu.participants[0]
-teks = `_Bueno  @${num.split('@')[0]} se  fue, dijo que iba a comprar cigarrillos:)_
-_*Ojala y le vaya bien*_
+teks = `  @${num.split('@')[0]} acaba de salir a comprar unos cigarrilos 🚬
+
 `
 samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 
